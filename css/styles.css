@@ -1,0 +1,329 @@
+body {
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1;
+    font-weight: 900;
+}
+
+h5 {
+    font-weight: 900;
+}
+
+h4 {
+    font-weight: 900;
+}
+
+.shadowed {
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* ####### NAV BAR ######## */
+
+.logo {
+    width: 50px;
+    margin: 0 0.9375rem 0 0;
+}
+
+.navbar {
+    margin: auto;
+    padding-top: 1.5625rem;
+}
+
+.navbar-nav {
+    margin: 0 0.625rem 0 0.625rem;
+}
+
+.nav-item {
+    padding: 0 0 0 0.625rem;
+}
+
+label {
+    font-weight: 600;
+    color: #bb7330;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    color: #bb7330;
+}
+
+a:hover {
+    color: #f7f2ee;
+}
+
+
+
+/* ####### intro ######## */
+
+.intro {
+    width: 100%;
+    background-color: #212529;
+}
+
+.introContent {
+    width: 67%;
+    margin: auto;
+    padding: 5rem 0 7.35rem 0;
+}
+
+.introText {
+    margin: auto;
+}
+
+.introDesc {
+    line-height: 1.5;
+    color: #f7f2ee;
+}
+
+.introHead {
+    color: #e9a260;
+    margin: 1.5625rem 0 1.5625rem 0;
+    line-height: 1.2;
+}
+
+.introStitch {
+    width: 100%;
+    max-width: 290px;
+    position: absolute;
+    top: 7rem;
+    right: 25%;
+}
+
+.btn {
+    background-color: #e9a260;
+    color: #212529;
+    margin: 1.5625rem 0 1.5625rem 0;
+}
+
+.btn:hover {
+    background-color: #f7f2ee;
+    color: #212529;
+}
+
+
+
+/* ####### CONTENT ######## */
+
+.content {
+    margin: auto;
+    background-color: #f7f2ee;
+    padding: 7rem;
+    position: relative;
+}
+
+.content-item {
+    padding: 1.5625rem 1rem 1.5625rem 1rem;
+}
+
+.icn {
+    margin-bottom: 1.5625rem;
+    color: #e9a260;
+}
+
+.icn:hover {
+    color: #212529;
+}
+
+
+/* ####### ABOUT ######## */
+
+.about {
+    background-color: #212529;
+    color: white;
+}
+
+.about-slide {
+    margin: auto;
+}
+
+.carousel-item {
+    padding: 15rem 0 15rem 0;
+}
+
+.item-head {
+    width: 80%;
+    margin: auto;
+}
+
+.item-desc {
+    padding-top: 1rem;
+}
+
+.item-01 {
+    background-image: url("../images/StitchPhoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 30%;
+}
+
+.item-02 {
+    background-image: url("../images/StitchPhoto02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 30%;
+}
+
+
+/* ####### CHECK ######## */
+
+.check-us {
+    background-image: url("../images/bg-paw-pattern-w.jpg");
+    padding: 7rem;
+}
+
+.check-us-content {
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+}
+
+.companies {
+    margin-top: 2rem;
+}
+
+.btnCheck:hover {
+    background-color: red;
+    color: white;
+}
+
+.check-pic-div {
+    margin: auto auto auto auto;
+    padding: 1rem;
+}
+
+.check-pic {
+    max-height: 50px;
+    max-width: 100%;
+}
+
+
+/* ####### CONTACT FORM ######## */
+
+.contact {
+    background-color: #f7f2ee;
+}
+
+.contact-content{
+    margin: auto;
+    padding: 5rem 0 5rem 0;
+    width: 67%;
+}
+
+.contact-item {
+    padding: 2rem;
+}
+
+
+/* ####### FOOTER ######## */
+
+.footer {
+    background-color: #212529;
+    color: #f7f2ee;
+}
+
+.footer-content {
+    margin: auto;
+    width: 67%;
+    padding: 5rem 0 5rem 0;
+}
+
+.social-media {
+    margin: 3rem auto 3rem auto;
+    width: 30%;
+}
+
+.copyright-txt {
+    font-size: 0.7rem;
+}
+
+
+
+/*--------------------------------------------*/
+
+/* ######### SCREEN SIZES ########## */
+
+@media (max-width: 1280px) {
+    .introStitch {
+        right: 15%;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .introContent {
+        padding: 0;
+    }
+    
+    .content-item {
+        padding: 1rem 20% 1rem 20%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .introStitch {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 150px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    h5 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .content-item {
+        padding: 1rem 10% 1rem 10%;
+    }
+
+    .check-us {
+        padding: 3rem 0 3rem 0;
+    }
+
+    .item-01 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .item-02 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+
+
+@media (max-width: 475px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 1rem 10% 1rem 10%;
+    }
+
+    .contact-content{
+        padding: 1rem 0 1rem 0;
+        width: 90%;
+    }
+    
+    .contact-item {
+        padding: 1rem;
+    }
+}
